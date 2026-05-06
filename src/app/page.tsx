@@ -303,7 +303,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-pink-50 sm:text-lg">
-              Verifique as ofertas disponíveis para você
+              Verifique as ofertas disponíveis para você.
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
