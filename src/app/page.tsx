@@ -257,7 +257,7 @@ export default function Home() {
   }
 
   function rejectCookies() {
-    localStorage.setItem("cookiesAccepted", "false");
+    localStorage.setItem("cookiesAccepted", "true");
     setShowCookie(false);
   }
 
