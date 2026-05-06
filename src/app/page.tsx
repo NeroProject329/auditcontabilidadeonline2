@@ -314,16 +314,14 @@ export default function Home() {
                 disabled={whatsappLoading}
                 className="group inline-flex items-center justify-center gap-3 rounded-full bg-white px-7 py-4 text-sm font-black uppercase tracking-wide text-pink-600 shadow-2xl shadow-pink-950/25 transition hover:-translate-y-1 hover:shadow-white/20 disabled:cursor-wait disabled:opacity-70"
               >
-                {whatsappLoading ? "Carregando..." : "Consultar agora, grátis"}
+                {whatsappLoading ? "Carregando..." : "Consultar agora grátis"}
 
                 <span className="transition group-hover:translate-x-1">
                   <IconArrowRight />
                 </span>
               </button>
 
-              <div className="rounded-2xl border border-white/15 bg-white/10 px-4 py-3 text-sm font-semibold text-white/90 backdrop-blur">
-                Falar com Especialista
-              </div>
+             
             </div>
           </div>
 
