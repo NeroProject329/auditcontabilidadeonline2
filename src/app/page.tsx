@@ -286,14 +286,14 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="relative isolate overflow-hidden bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#500724_100%)] px-5 pt-16 text-white md:pt-20">
+      <section className="relative isolate overflow-hidden bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#ec4899_100%)] px-5 pt-16 text-white md:pt-20">
   <div className="absolute left-[-100px] top-[-100px] h-80 w-80 rounded-full bg-pink-900/25 blur-3xl" />
   <div className="absolute bottom-10 right-[-130px] h-96 w-96 rounded-full bg-pink-950/20 blur-3xl" />
   <div className="absolute inset-0 bg-grid opacity-15" />
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="pb-14 md:pb-20">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-white shadow-2xl shadow-pink-950/10 backdrop-blur">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-pink-900/15 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-white shadow-2xl shadow-pink-950/10 backdrop-blur">
               Atendimento 2026
             </div>
 
@@ -303,8 +303,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-pink-50 sm:text-lg">
-              Verifique as ofertas disponíveis para você e consulte sua situação
-              com uma central de atendimento humana, rápida e segura.
+              Verifique as ofertas disponíveis para você
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -330,14 +329,14 @@ export default function Home() {
 
             <picture>
               <source
-                srcSet="/womancelularmobile.png"
+                srcSet="/womancelular.png"
                 media="(max-width: 640px)"
               />
 
               <img
                 src="/womancelular.png"
                 alt="Atendimento humano especializado"
-                className="relative z-10 h-auto w-full max-w-[430px] object-contain drop-shadow-[0_35px_45px_rgba(80,7,36,0.35)] md:max-w-[500px]"
+                className="relative z-10 h-auto w-full max-w-[430px] object-contain drop-shadow-[0_35px_45px_rgba(219, 14, 96, 0.35)] md:max-w-[500px]"
               />
             </picture>
           </div>
