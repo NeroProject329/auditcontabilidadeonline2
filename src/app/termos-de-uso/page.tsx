@@ -351,22 +351,24 @@ export default function TermosDeUsoPage() {
             ))}
           </div>
 
-          <div className="mt-8 rounded-[30px] bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#9d174d_100%)] p-7 text-white shadow-2xl shadow-pink-200 sm:p-8">
-            <h2 className="text-3xl font-black tracking-tight">
-              Dúvidas sobre estes termos?
-            </h2>
+          <div className="mt-8 overflow-hidden rounded-[30px] bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#9d174d_100%)] p-5 text-white shadow-2xl shadow-pink-200 sm:p-8">
+  <h2 className="text-2xl font-black tracking-tight sm:text-3xl">
+    Dúvidas sobre estes termos?
+  </h2>
 
-            <p className="mt-4 max-w-3xl text-sm font-medium leading-8 text-pink-50 sm:text-base">
-              Para qualquer dúvida sobre estes Termos de Uso, fale com a empresa pelo canal oficial abaixo.
-            </p>
+  <p className="mt-4 max-w-3xl text-sm font-medium leading-8 text-pink-50 sm:text-base">
+    Para qualquer dúvida sobre estes Termos de Uso, fale com a empresa pelo canal oficial abaixo.
+  </p>
 
-            <a
-              href="mailto:contato@auditcontabilidadeonline.com"
-              className="mt-6 inline-flex rounded-full bg-white px-7 py-4 text-sm font-black uppercase tracking-wide text-pink-600 shadow-2xl shadow-pink-950/20 transition hover:-translate-y-1"
-            >
-              contato@auditcontabilidadeonline.com
-            </a>
-          </div>
+  <a
+  href="mailto:contato@auditcontabilidadeonline.com"
+  className="mt-6 flex w-full max-w-full items-center justify-center overflow-hidden rounded-full bg-white px-3 py-4 text-center text-[10px] font-black uppercase tracking-normal text-pink-600 shadow-2xl shadow-pink-950/20 transition hover:-translate-y-1 min-[390px]:text-[11px] sm:inline-flex sm:w-auto sm:px-7 sm:text-sm sm:tracking-wide"
+>
+  <span className="max-w-full leading-5">
+    contato@auditcontabilidadeonline.com
+  </span>
+</a>
+</div>
         </div>
       </section>
 
