@@ -243,7 +243,7 @@ export default function Home() {
     const accepted = localStorage.getItem("cookiesAccepted");
 
     if (!accepted) {
-      setShowCookie(true);
+      setShowCookie(false);
     }
   }, []);
 
