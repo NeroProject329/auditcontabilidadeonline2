@@ -297,7 +297,7 @@ export default function Home() {
               Atendimento 2026
             </div>
 
-            <h1 className="max-w-3xl text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-3xl text-3xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
               Consulte as condições e veja os <span className="text-[#f8d85d] drop-shadow-sm">descontos</span> disponíveis para você.          
             </h1>
 
