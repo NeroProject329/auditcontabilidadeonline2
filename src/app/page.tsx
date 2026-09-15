@@ -298,8 +298,8 @@ export default function Home() {
             </div>
 
             <h1 className="max-w-3xl text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              Descontos exclusivos para aproveitar suas oportunidades de até{" "}
-              <span className="text-[#f8d85d] drop-shadow-sm">98%</span>.
+              Consulte as condições e veja os {" "} disponíveis para você 
+              <span className="text-[#f8d85d] drop-shadow-sm ml-4">descontos</span>.
             </h1>
 
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-pink-50 sm:text-lg">
@@ -329,12 +329,12 @@ export default function Home() {
 
             <picture>
               <source
-                srcSet="/womancelular.png"
+                srcSet="/Me.png"
                 media="(max-width: 640px)"
               />
 
               <img
-                src="/womancelular.png"
+                src="/Me.png"
                 alt="Atendimento humano especializado"
                 className="relative z-10 h-auto w-full max-w-[430px] object-contain drop-shadow-[0_35px_45px_rgba(219, 14, 96, 0.35)] md:max-w-[500px]"
               />
