@@ -298,7 +298,7 @@ export default function Home() {
             </div>
 
             <h1 className="max-w-3xl text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              Consulte as condições e veja os <span className="text-[#f8d85d] drop-shadow-sm ml-4">descontos</span>. disponíveis para você          
+              Consulte as condições e veja os <span className="text-[#f8d85d] drop-shadow-sm ml-3">descontos</span> disponíveis para você.          
             </h1>
 
             <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-pink-50 sm:text-lg">
