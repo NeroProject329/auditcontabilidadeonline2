@@ -431,11 +431,32 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="w-100 h-100 text-1xl font-black d-flex rounded-sm border-black-1">
-               <p >
-                As condições, ofertas e eventuais descontos apresentados durante o atendimento dependem da análise e das condições disponíveis para cada caso. Não garantimos percentual específico de desconto ou resultado determinado. As condições podem variar conforme as informações apresentadas e a disponibilidade existente no momento da consulta.
-              </p>
+
+          <div>
+            
           </div>
+
+          <div
+  className="text-1xl font-grey rounded-2xl"
+  style={{
+    width: "calc(100% - 32px)",
+    maxWidth: "900px",
+    margin: "24px auto",
+    padding: "24px",
+    border: "3px solid #9d174d",
+    boxSizing: "border-box",
+    textAlign: "center",
+    fontWeight: "600",
+  }}
+>
+  <p style={{ margin: 0 }}>
+    As condições, ofertas e eventuais descontos apresentados durante o
+    atendimento dependem da análise e das condições disponíveis para cada caso.
+    Não garantimos percentual específico de desconto ou resultado determinado.
+    As condições podem variar conforme as informações apresentadas e a
+    disponibilidade existente no momento da consulta.
+  </p>
+</div>
 
           <div className="mt-12 text-center">
             <button
