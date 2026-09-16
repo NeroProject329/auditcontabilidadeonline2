@@ -192,23 +192,23 @@ function IconLocation() {
 
 const highlights = [
   {
-    value: "+1.000.000",
-    label: "Atendimentos realizados",
-  },
-  {
-    value: "+4 anos",
+    value: "Anos de atuação",
     label: "Experiência operacional",
   },
   {
-    value: "98%",
-    label: "Avaliações positivas",
+    value: "Atendimento humano",
+    label: "Análise individual",
+  },
+  {
+    value: "Atendimento online",
+    label: "Canais oficiais",
   },
 ];
 
 const features = [
   {
     icon: <IconShield />,
-    title: "Segurança Total",
+    title: "Atendimento Seguro",
     text: "Tratamos todas as informações com sigilo, responsabilidade e cuidado em cada etapa.",
   },
   {
@@ -312,7 +312,7 @@ export default function Home() {
                 disabled={whatsappLoading}
                 className="group inline-flex items-center justify-center gap-3 rounded-full bg-white px-7 py-4 text-sm font-black uppercase tracking-wide text-pink-600 shadow-2xl shadow-pink-950/25 transition hover:-translate-y-1 hover:shadow-white/20 disabled:cursor-wait disabled:opacity-70"
               >
-                {whatsappLoading ? "Carregando..." : "Consultar agora grátis"}
+                {whatsappLoading ? "Carregando..." : "CONSULTAR CONDIÇÕES"}
 
                 <span className="transition group-hover:translate-x-1">
                   <IconArrowRight />
@@ -431,6 +431,12 @@ export default function Home() {
             ))}
           </div>
 
+          <div className="w-100 h-100 text-1xl font-black d-flex rounded-sm border-black-1">
+               <p >
+                As condições, ofertas e eventuais descontos apresentados durante o atendimento dependem da análise e das condições disponíveis para cada caso. Não garantimos percentual específico de desconto ou resultado determinado. As condições podem variar conforme as informações apresentadas e a disponibilidade existente no momento da consulta.
+              </p>
+          </div>
+
           <div className="mt-12 text-center">
             <button
               type="button"
@@ -455,9 +461,10 @@ export default function Home() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-pink-50">
-                Atendimento especializado para análise de situações financeiras e
-                administrativas.
+                Empresa responsável pelo atendimento, análise das informações apresentadas pelo cliente e orientação sobre as condições disponíveis em cada caso.
               </p>
+
+           
             </div>
 
             <div className="flex gap-3 text-sm text-pink-50">
