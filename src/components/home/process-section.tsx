@@ -2,10 +2,10 @@ import { IconArrowRight } from "./icons";
 import styles from "./home-design.module.css";
 
 const steps = [
-  "Você entra em contato e explica sua situação.",
-  "Nossa equipe analisa as informações disponíveis.",
-  "Apresentamos as opções encontradas para você.",
-  "Você decide como deseja prosseguir.",
+  "Entre em contato e informe o serviço contábil que procura.",
+  "Nossa equipe entende sua necessidade e analisa as informações apresentadas.",
+  "Explicamos os serviços disponíveis e as etapas necessárias.",
+  "Você escolhe como deseja prosseguir com o atendimento.",
 ];
 
 export function ProcessSection() {

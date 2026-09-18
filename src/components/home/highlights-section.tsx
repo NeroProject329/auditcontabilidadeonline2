@@ -3,15 +3,15 @@ import styles from "./home-design.module.css";
 
 const highlights = [
   {
-    value: "Anos de atuação",
-    label: "Experiência operacional",
+    value: " Experiência Profissional",
+    label: "Atuação contábil",
   },
   {
-    value: "Atendimento humano",
-    label: "Análise individual",
+    value: "Atendimento Personalizado",
+    label: "Suporte individual",
   },
   {
-    value: "Atendimento online",
+    value: "Atendimento Online",
     label: "Canais oficiais",
   },
 ];

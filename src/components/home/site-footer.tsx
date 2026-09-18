@@ -12,12 +12,10 @@ export function SiteFooter() {
               <span className={styles.brandMark} aria-hidden="true">
                 <IconHeadset />
               </span>
-              <h2>Audit Contabilidade Audit Organizacoes Contabeis LTDA</h2>
+              <h2>Audit Organizações Contábeis LTDA</h2>
             </div>
             <p className={styles.footerDescription}>
-              Empresa responsável pelo atendimento, análise das informações
-              apresentadas pelo cliente e orientação sobre as condições
-              disponíveis em cada caso.
+              Empresa de contabilidade que presta serviços contábeis, fiscais e de assessoria empresarial para pessoas físicas e jurídicas.
             </p>
           </div>
           <address className={styles.footerContacts}>
