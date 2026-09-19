@@ -45,7 +45,7 @@ export function SiteFooter() {
           </address>
         </div>
         <div className={styles.footerBottom}>
-          <p>© 2026 Central Gerencial. Todos os direitos reservados.</p>
+          <p>© 2026 Audit Organizações Contábeis LTDA. Todos os direitos reservados..</p>
           <nav aria-label="Informações legais">
             <Link href="/politica-de-privacidade">Política de Privacidade</Link>
             <Link href="/termos-de-uso">Termos de Uso</Link>

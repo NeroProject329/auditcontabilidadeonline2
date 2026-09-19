@@ -67,7 +67,7 @@ export function ConditionsNotice({
           >
             {whatsappLoading
               ? "Carregando atendimento..."
-              : "Falar com um atendente"}
+              : "FALAR COM NOSSA EQUIPE"}
           </button>
         </div>
       </div>

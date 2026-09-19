@@ -12,12 +12,12 @@ export function HeroSection({
     <section id="inicio" aria-labelledby="hero-title" className={styles.hero}>
       <div className={`${styles.container} ${styles.heroGrid}`}>
         <div className={styles.heroCopy}>
-          <span className={styles.heroBadge}>Atendimento 2026</span>
+          <span className={styles.heroBadge}>ATENDIMENTO CONTÁBIL 2026</span>
           <h1 id="hero-title" className={styles.heroTitle}>
-            Consulte suas condições em poucos <span>minutos</span> .
+            Atendimento pensado para <span>você</span> .
           </h1>
           <p className={styles.heroDescription}>
-            Descubra as opções disponiveis para você. Análise gratuita e sem compromisso.
+            Conte com nossa equipe para conhecer os serviços disponíveis e esclarecer suas dúvidas.
           </p>
           <div className={styles.heroCta}>
             <button
@@ -26,7 +26,7 @@ export function HeroSection({
               disabled={whatsappLoading}
               className={`${styles.button} ${styles.buttonLight}`}
             >
-              {whatsappLoading ? "Carregando..." : "Consultar condições"}
+              {whatsappLoading ? "Carregando..." : "Saiba mais"}
               <span className={styles.arrow} aria-hidden="true">
                 <IconArrowRight />
               </span>

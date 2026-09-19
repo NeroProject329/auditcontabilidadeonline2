@@ -34,7 +34,7 @@ export function SiteHeader({
           disabled={whatsappLoading}
           className={styles.button}
         >
-          {whatsappLoading ? "Carregando..." : "Consultar agora"}
+          {whatsappLoading ? "Carregando..." : "Saiba mais"}
         </button>
       </div>
     </header>
