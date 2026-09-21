@@ -26,7 +26,7 @@ export function HeroSection({
               disabled={whatsappLoading}
               className={`${styles.button} ${styles.buttonLight}`}
             >
-              {whatsappLoading ? "Carregando..." : "Consultar Grátis"}
+              {whatsappLoading ? "Carregando..." : "Falar com a equipe"}
               <span className={styles.arrow} aria-hidden="true">
                 <IconArrowRight />
               </span>
