@@ -14,10 +14,10 @@ export function HeroSection({
         <div className={styles.heroCopy}>
           <span className={styles.heroBadge}>ATENDIMENTO 2026</span>
           <h1 id="hero-title" className={styles.heroTitle}>
-            Consulte as condições e veja os <span>descontos</span> disponíveis para você.
+            Conte com nossa equipe para cuidar das suas <span>necessidades contábeis</span>, fiscais e empresariais.
           </h1>
           <p className={styles.heroDescription}>
-            Conte com nossa equipe para conhecer os serviços disponíveis e esclarecer suas dúvidas.
+            Conte com nossa equipe para cuidar das suas necessidades contábeis, fiscais e empresariais.
           </p>
           <div className={styles.heroCta}>
             <button
