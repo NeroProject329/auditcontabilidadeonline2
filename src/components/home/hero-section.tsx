@@ -16,9 +16,6 @@ export function HeroSection({
           <h1 id="hero-title" className={styles.heroTitle}>
             Conte com nossa equipe para cuidar das suas <span>necessidades contábeis</span>, fiscais e empresariais.
           </h1>
-          <p className={styles.heroDescription}>
-            Conte com nossa equipe para cuidar das suas necessidades contábeis, fiscais e empresariais.
-          </p>
           <div className={styles.heroCta}>
             <button
               type="button"
