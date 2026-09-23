@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EmailLink } from "./email-link";
 import { IconMail, IconCard, IconLocation, IconHeadset } from "./icons";
 import styles from "./home-design.module.css";
 
@@ -12,10 +13,12 @@ export function SiteFooter() {
               <span className={styles.brandMark} aria-hidden="true">
                 <IconHeadset />
               </span>
-              <h2>Audit Organizações Contábeis LTDA</h2>
+              <h2>Audit Contabilidade</h2>
             </div>
             <p className={styles.footerDescription}>
-              Empresa de contabilidade que presta serviços contábeis, fiscais e de assessoria empresarial para pessoas físicas e jurídicas.
+              <strong>Razão Social</strong><br />
+              Audit Organizações Contábeis LTDA<br />
+              Serviços contábeis, fiscais e de assessoria empresarial.
             </p>
           </div>
           <address className={styles.footerContacts}>
@@ -23,15 +26,21 @@ export function SiteFooter() {
               <IconMail />
               <div>
                 <small>E-mail</small>
-                <a href="mailto:contato@auditcontabilidadeonline.com">
+                <EmailLink aria-label="Enviar e-mail para a Audit Contabilidade">
                   contato@auditcontabilidadeonline.com
-                </a>
+                </EmailLink>
               </div>
             </div>
             <div className={styles.contact}>
               <IconCard />
               <div>
                 <small>CNPJ</small>07.994.633/0001-01
+              </div>
+            </div>
+            <div className={styles.contact}>
+              <IconCard />
+              <div>
+                <small>Registro CRCSC</small>SC-008518/O-3
               </div>
             </div>
             <div className={styles.contact}>
@@ -45,7 +54,7 @@ export function SiteFooter() {
           </address>
         </div>
         <div className={styles.footerBottom}>
-          <p>© 2026 Audit Organizações Contábeis LTDA. Todos os direitos reservados..</p>
+          <p>© 2026 Audit Organizações Contábeis LTDA. Todos os direitos reservados.</p>
           <nav aria-label="Informações legais">
             <Link href="/politica-de-privacidade">Política de Privacidade</Link>
             <Link href="/termos-de-uso">Termos de Uso</Link>

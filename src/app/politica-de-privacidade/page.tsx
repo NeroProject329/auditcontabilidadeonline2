@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EmailLink } from "@/components/home/email-link";
+import { LegalHeader } from "@/components/home/legal-header";
+import { SiteFooter } from "@/components/home/site-footer";
 
 export const metadata: Metadata = {
   title: "Política de Privacidade | Audit Contabilidade",
   description:
-    "Política de Privacidade da Audit Contabilidade Audit Organizacoes Contabeis LTDA.",
+    "Política de Privacidade da Audit Contabilidade, nome fantasia da Audit Organizações Contábeis LTDA.",
 };
 
 type IconProps = {
@@ -89,14 +92,24 @@ function IconCookie({ className = "" }: IconProps) {
 
 const companyInfo = [
   {
+    icon: IconHeadset,
+    label: "Nome fantasia",
+    value: "Audit Contabilidade",
+  },
+  {
     icon: IconFile,
     label: "Razão Social",
-    value: "Audit Contabilidade Audit Organizacoes Contabeis LTDA",
+    value: "Audit Organizações Contábeis LTDA",
   },
   {
     icon: IconFile,
     label: "CNPJ",
     value: "07.994.633/0001-01",
+  },
+  {
+    icon: IconShield,
+    label: "Registro CRCSC",
+    value: "SC-008518/O-3",
   },
   {
     icon: IconMail,
@@ -162,94 +175,17 @@ const sections = [
 ];
 
 function LegalFooter() {
-  return (
-    <footer className="bg-[#9d174d] px-5 py-12 text-white">
-      <div className="mx-auto flex max-w-7xl flex-col gap-8">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <h3 className="text-lg font-black">
-              Audit Contabilidade Audit Organizacoes Contabeis LTDA
-            </h3>
-
-            <p className="mt-3 text-sm leading-7 text-pink-50">
-              Atendimento especializado para análise de situações financeiras e administrativas.
-            </p>
-          </div>
-
-          <div className="flex gap-3 text-sm text-pink-50">
-            <span className="mt-0.5 text-pink-200">
-              <IconMail className="h-5 w-5" />
-            </span>
-
-            <span>contato@auditcontabilidadeonline.com</span>
-          </div>
-
-          <div className="flex gap-3 text-sm text-pink-50">
-            <span className="mt-0.5 text-pink-200">
-              <IconFile className="h-5 w-5" />
-            </span>
-
-            <span>CNPJ: 07.994.633/0001-01</span>
-          </div>
-
-          <div className="flex gap-3 text-sm leading-7 text-pink-50">
-            <span className="mt-0.5 text-pink-200">
-              <IconLocation className="h-5 w-5" />
-            </span>
-
-            <div>
-              <p>Rua Regimento Barriga Verde 719 Sala 02</p>
-              <p>Centro, Araranguá - SC</p>
-              <p>CEP: 88900-061</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-4 border-t border-white/15 pt-6 text-sm text-pink-50 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Central Gerencial. Todos os direitos reservados.</p>
-
-          <div className="flex gap-4">
-            <Link href="/politica-de-privacidade" className="hover:text-white">
-              Política de Privacidade
-            </Link>
-
-            <Link href="/termos-de-uso" className="hover:text-white">
-              Termos de Uso
-            </Link>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+  return <SiteFooter />;
 }
 
 export default function PoliticaDePrivacidadePage() {
   return (
     <main className="min-h-screen bg-white text-slate-950">
-      <header className="sticky top-0 z-50 border-b border-pink-100/80 bg-white/85 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <Link href="/" className="flex items-center gap-3 font-black tracking-tight text-pink-600">
-            <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-pink-50 shadow-sm shadow-pink-200">
-              <IconHeadset className="h-6 w-6" />
-            </span>
-
-            <span className="text-base sm:text-lg">Assessoria & Consulta</span>
-          </Link>
-
-          <Link
-            href="/"
-            className="rounded-full bg-pink-600 px-5 py-3 text-sm font-black text-white shadow-xl shadow-pink-200 transition hover:-translate-y-0.5 hover:bg-pink-700"
-          >
-            Voltar
-          </Link>
-        </div>
-      </header>
+      <LegalHeader />
 
       <section className="relative isolate overflow-hidden bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#ec4899_100%)] px-5 py-20 text-white md:py-24">
         <div className="absolute left-[-100px] top-[-100px] h-80 w-80 rounded-full bg-pink-900/25 blur-3xl" />
         <div className="absolute bottom-10 right-[-130px] h-96 w-96 rounded-full bg-pink-950/20 blur-3xl" />
-        <div className="absolute inset-0 bg-grid opacity-15" />
-
         <div className="relative mx-auto max-w-7xl">
           <Link
             href="/"
@@ -282,8 +218,11 @@ export default function PoliticaDePrivacidadePage() {
 
       <section className="bg-pink-50 px-5 py-16">
         <div className="mx-auto max-w-7xl">
-          <div className="rounded-[30px] border border-pink-100 bg-white p-7 shadow-xl shadow-pink-100/80 sm:p-8">
-            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-pink-50 text-pink-600">
+          <div
+            className="rounded-[30px] border border-pink-100 bg-white p-7 sm:p-8"
+            style={{ boxShadow: "-8px 10px 0 rgba(157, 23, 77, 0.12), -14px 20px 32px rgba(148, 20, 71, 0.08)" }}
+          >
+            <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-pink-600 text-white shadow-lg shadow-pink-200">
               <IconShield className="h-8 w-8" />
             </div>
 
@@ -314,10 +253,11 @@ export default function PoliticaDePrivacidadePage() {
             {sections.map(({ icon: Icon, title, content }) => (
               <article
                 key={title}
-                className="rounded-[30px] border border-pink-100 bg-white p-7 shadow-xl shadow-pink-100/70 sm:p-8"
+                className="rounded-[30px] border border-pink-100 bg-white p-7 sm:p-8"
+                style={{ boxShadow: "-8px 10px 0 rgba(157, 23, 77, 0.1), -12px 18px 30px rgba(148, 20, 71, 0.07)" }}
               >
                 <div className="flex flex-col gap-5 sm:flex-row">
-                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-pink-50 text-pink-600">
+                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-pink-600 text-white shadow-lg shadow-pink-200">
                     <Icon className="h-8 w-8" />
                   </div>
 
@@ -339,24 +279,24 @@ export default function PoliticaDePrivacidadePage() {
             ))}
           </div>
 
-          <div className="mt-8 overflow-hidden rounded-[30px] bg-[radial-gradient(circle_at_top_left,#ec4899_0%,#db2777_32%,#be185d_65%,#9d174d_100%)] p-5 text-white shadow-2xl shadow-pink-200 sm:p-8">
+          <div className="mt-8 overflow-hidden rounded-[30px] bg-[#319ADA] p-5 text-white sm:p-8">
   <h2 className="text-2xl font-black tracking-tight sm:text-3xl">
     Fale conosco
   </h2>
 
-  <p className="mt-4 max-w-3xl text-sm font-medium leading-8 text-pink-50 sm:text-base">
+  <p className="mt-4 max-w-3xl text-sm font-medium leading-8 text-white/90 sm:text-base">
     Para dúvidas sobre esta Política de Privacidade ou solicitações relacionadas
     aos seus dados pessoais, entre em contato pelo e-mail oficial.
   </p>
 
-  <a
-  href="mailto:contato@auditcontabilidadeonline.com"
-  className="mt-6 flex w-full max-w-full items-center justify-center overflow-hidden rounded-full bg-white px-3 py-4 text-center text-[10px] font-black uppercase tracking-normal text-pink-600 shadow-2xl shadow-pink-950/20 transition hover:-translate-y-1 min-[390px]:text-[11px] sm:inline-flex sm:w-auto sm:px-7 sm:text-sm sm:tracking-wide"
+  <EmailLink
+  aria-label="Enviar e-mail para a Audit Contabilidade"
+  className="mt-6 flex w-full max-w-full items-center justify-center overflow-hidden rounded-full bg-white px-3 py-4 text-center text-[10px] font-black uppercase tracking-normal text-[#1579B8] shadow-[0_8px_0_#1579B8,0_15px_28px_rgba(10,76,118,0.28)] transition hover:-translate-y-1 min-[390px]:text-[11px] sm:inline-flex sm:w-auto sm:px-7 sm:text-sm sm:tracking-wide"
 >
   <span className="max-w-full leading-5">
     contato@auditcontabilidadeonline.com
   </span>
-</a>
+</EmailLink>
 </div>
         </div>
       </section>
