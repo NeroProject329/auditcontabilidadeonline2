@@ -14,7 +14,7 @@ export function HeroSection({
         <div className={styles.heroCopy}>
           <span className={styles.heroBadge}>ATENDIMENTO 2026</span>
           <h1 id="hero-title" className={styles.heroTitle}>
-            Conte com nossa equipe para cuidar das suas <span>necessidades contábeis</span>, fiscais e empresariais.
+            Consulte as condições e veja os <span>descontos</span>, disponiveis para você.
           </h1>
           <div className={styles.heroCta}>
             <button
@@ -23,7 +23,7 @@ export function HeroSection({
               disabled={whatsappLoading}
               className={`${styles.button} ${styles.buttonLight}`}
             >
-              {whatsappLoading ? "Carregando..." : "Falar com a equipe"}
+              {whatsappLoading ? "Carregando..." : "CONSULTAR AGORA GRÁTIS"}
               <span className={styles.arrow} aria-hidden="true">
                 <IconArrowRight />
               </span>
@@ -33,7 +33,7 @@ export function HeroSection({
         <figure className={styles.heroFigure}>
           <picture>
             <img
-              src="/Meattaudit.png"
+              src="/Mesemmf.png"
               alt="Atendimento humano especializado"
               fetchPriority="high"
             />
