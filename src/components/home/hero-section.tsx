@@ -16,6 +16,12 @@ export function HeroSection({
           <h1 id="hero-title" className={styles.heroTitle}>
             Consulte as condições e veja os <span>descontos</span>, disponiveis para você.
           </h1>
+          <br />
+          <p>
+            Verifique as ofertas disponíveis para você.
+          </p>
+
+
           <div className={styles.heroCta}>
             <button
               type="button"
