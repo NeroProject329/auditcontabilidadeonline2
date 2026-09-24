@@ -37,12 +37,7 @@ export function SiteFooter() {
                 <small>CNPJ</small>07.994.633/0001-01
               </div>
             </div>
-            <div className={styles.contact}>
-              <IconCard />
-              <div>
-                <small>Registro CRCSC</small>SC-008518/O-3
-              </div>
-            </div>
+
             <div className={styles.contact}>
               <IconLocation />
               <div>

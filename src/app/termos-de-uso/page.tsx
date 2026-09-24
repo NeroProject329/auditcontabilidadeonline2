@@ -120,11 +120,6 @@ const companyInfo = [
     value: "07.994.633/0001-01",
   },
   {
-    icon: IconShield,
-    label: "Registro CRCSC",
-    value: "SC-008518/O-3",
-  },
-  {
     icon: IconMail,
     label: "E-mail",
     value: "contato@auditcontabilidadeonline.com",
