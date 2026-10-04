@@ -20,7 +20,7 @@ export function SiteHeader({
             <IconHeadset />
           </span>
           <span className={styles.brandName}>
-            Assessoria & Consulta<small>Atendimento humano e online</small>
+            Audit Contabilidade <small>Serviços Contábeis e Assessoria Empresarial</small>
           </span>
         </a>
         <nav className={styles.nav} aria-label="Navegação principal">

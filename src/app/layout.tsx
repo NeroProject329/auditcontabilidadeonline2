@@ -9,7 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Assessoria & Consulta | Atendimento humano e online",
+  title: "Audit Contabilidade | Serviços Contábeis e Assessoria Empresarial",
   description:
     "Central de atendimento especializada em análise de situações financeiras e administrativas. Atendimento humano, rápido e seguro.",
   robots: {
