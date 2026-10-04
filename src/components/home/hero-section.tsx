@@ -16,9 +16,7 @@ export function HeroSection({
           <h1 id="hero-title" className={styles.heroTitle}>
             Atendimento pensado para <span>você</span> .
           </h1>
-          <p className={styles.heroDescription}>
-            Conte com nossa equipe para conhecer os serviços disponíveis e esclarecer suas dúvidas.
-          </p>
+
           <div className={styles.heroCta}>
             <button
               type="button"
@@ -36,7 +34,7 @@ export function HeroSection({
         <figure className={styles.heroFigure}>
           <picture>
             <img
-              src="/Mesemmf.png"
+              src="/Meattaudit.png"
               alt="Atendimento humano especializado"
               fetchPriority="high"
             />

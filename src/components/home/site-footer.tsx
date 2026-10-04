@@ -35,6 +35,12 @@ export function SiteFooter() {
               </div>
             </div>
             <div className={styles.contact}>
+              <IconCard />
+              <div>
+                <small>CRC</small>CRC SC-008518/O-3 
+              </div>
+            </div>
+            <div className={styles.contact}>
               <IconLocation />
               <div>
                 <small>Endereço</small>

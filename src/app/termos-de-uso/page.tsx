@@ -119,6 +119,13 @@ const companyInfo = [
     label: "CNPJ",
     value: "07.994.633/0001-01",
   },
+
+    {
+    icon: IconFile,
+    label: "CRC",
+    value: "CRC SC-008518/O-3",
+  },
+
   {
     icon: IconMail,
     label: "E-mail",
