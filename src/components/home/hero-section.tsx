@@ -17,7 +17,7 @@ export function HeroSection({
           Consulte as condições e veja os <span>descontos</span> disponiveis para você.
           </h1>
           <br />
-          <p>Conte com a nossa equipe para esclarecer suas duvidas</p>
+          <p>Descubra ofertas disponíveis para você.</p>
 
           <div className={styles.heroCta}>
             <button
