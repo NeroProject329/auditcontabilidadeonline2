@@ -14,7 +14,7 @@ export function HeroSection({
         <div className={styles.heroCopy}>
           <span className={styles.heroBadge}>ATENDIMENTO 2026</span>
           <h1 id="hero-title" className={styles.heroTitle}>
-            Atendimento pensado para <span>você</span> .
+          Conte com nossa equipe para cuidar das suas <span>necessidades contábeis</span>, fiscais e empresariais.
           </h1>
 
           <div className={styles.heroCta}>
