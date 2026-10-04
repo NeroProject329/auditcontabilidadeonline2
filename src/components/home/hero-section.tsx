@@ -14,14 +14,11 @@ export function HeroSection({
         <div className={styles.heroCopy}>
           <span className={styles.heroBadge}>ATENDIMENTO 2026</span>
           <h1 id="hero-title" className={styles.heroTitle}>
-            Consulte as condições e veja os <span>descontos</span>, disponiveis para você.
+            Atendimento pensado para <span>você</span> .
           </h1>
-          <br />
-          <p>
-            Verifique as ofertas disponíveis para você.
+          <p className={styles.heroDescription}>
+            Conte com nossa equipe para conhecer os serviços disponíveis e esclarecer suas dúvidas.
           </p>
-
-
           <div className={styles.heroCta}>
             <button
               type="button"
@@ -29,7 +26,7 @@ export function HeroSection({
               disabled={whatsappLoading}
               className={`${styles.button} ${styles.buttonLight}`}
             >
-              {whatsappLoading ? "Carregando..." : "CONSULTAR AGORA GRÁTIS"}
+              {whatsappLoading ? "Carregando..." : "Saiba mais"}
               <span className={styles.arrow} aria-hidden="true">
                 <IconArrowRight />
               </span>
