@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_ZAP_API_BASE ||
-  "https://troca-numeros-api-production.up.railway.app";
+  "https://troca-numeros-api-production-874a.up.railway.app/";
 
 const DEFAULT_MESSAGE = "Olá! Gostaria de consultar minha situação.";
 
