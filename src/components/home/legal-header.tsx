@@ -1,41 +1,33 @@
-"use client";
-
+import Link from "next/link";
 import { IconHeadset } from "./icons";
-import type { WhatsappActionProps } from "./types";
 import styles from "./home-design.module.css";
 
-export function SiteHeader({
-  onWhatsappClick,
-  whatsappLoading,
-}: WhatsappActionProps) {
+export function LegalHeader() {
   return (
     <header className={styles.header}>
       <div className={`${styles.container} ${styles.headerInner}`}>
-        <a
-          href="#inicio"
+        <Link
+          href="/#inicio"
           className={styles.brand}
-          aria-label="Assessoria e Consulta — início"
+          aria-label="Audit Contabilidade — início"
         >
           <span className={styles.brandMark} aria-hidden="true">
             <IconHeadset />
           </span>
           <span className={styles.brandName}>
-            Audit Contabilidade <small>Serviços Contábeis e Assessoria Empresarial</small>
+            Audit Contabilidade <small>Atendimento humano e online</small>
           </span>
-        </a>
+        </Link>
+
         <nav className={styles.nav} aria-label="Navegação principal">
-          <a href="#inicio">Início</a>
-          <a href="#diferenciais">Diferenciais</a>
-          <a href="#etapas">Como funciona</a>
+          <Link href="/#inicio">Início</Link>
+          <Link href="/#diferenciais">Diferenciais</Link>
+          <Link href="/#etapas">Como funciona</Link>
         </nav>
-        <button
-          type="button"
-          onClick={onWhatsappClick}
-          disabled={whatsappLoading}
-          className={styles.button}
-        >
-          {whatsappLoading ? "Carregando..." : "Saiba mais"}
-        </button>
+
+        <Link href="/" className={styles.button}>
+          Voltar ao início
+        </Link>
       </div>
     </header>
   );
