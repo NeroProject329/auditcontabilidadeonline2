@@ -36,7 +36,7 @@ export function HeroSection({
         <figure className={styles.heroFigure}>
           <picture>
             <img
-              src="/Me-removebg-preview.png"
+              src="/Mesemnada.png"
               alt="Atendimento humano especializado"
               fetchPriority="high"
             />
